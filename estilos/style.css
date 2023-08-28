@@ -55,7 +55,7 @@ section#login{
  
 #imagem{
     background: url(../imagens/pexels-suzy-hazelwood-1629236.jpg) no-repeat ;
-    background-size: cover;
+    background-size: contain;
     height: 200px;
 }
 
