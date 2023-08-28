@@ -22,7 +22,7 @@
     section#login{
         width: 80vw;
         display: flex;
-        flex-direction: row;
+        flex-direction: row-reverse;
     }
 
     #imagem{
