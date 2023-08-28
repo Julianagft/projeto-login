@@ -93,7 +93,10 @@ form input[type=submit]{
     border: none;
     margin-top: 20px;
 }
-
+form input[type=email], input[type=password]{
+    border-radius: 5px;
+    padding: 2px;
+}
 form input[type=submit]:hover{
     background-color:#ffd034d7;
     font-weight: bolder;
