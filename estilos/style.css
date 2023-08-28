@@ -22,7 +22,7 @@
 body, html {
     background-image: linear-gradient(to bottom, var(--azul-claro), var(--verde-escuro));
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100%;
     width: 100vw;
 }
 
@@ -55,7 +55,7 @@ section#login{
  
 #imagem{
     background: url(../imagens/pexels-suzy-hazelwood-1629236.jpg) no-repeat ;
-    background-size: contain;
+    background-size: cover;
     height: 200px;
 }
 
