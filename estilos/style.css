@@ -61,12 +61,16 @@ section#login{
 
 #form{
     padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
 }
 
 #form > h1{
     text-align: center;
-    margin: 10px;
+    
 
 }
 
@@ -76,3 +80,49 @@ section#login{
     margin: 10px;
 }
 
+form input[type=submit]{
+    display: block;
+    margin: auto;
+    font-size: 1em;
+    font-weight: bold;
+    width: 90%;
+    height: 40px;
+    color: white;
+    background-color: var(--amarelo-queimado);
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+}
+
+form input[type=submit]:hover{
+    background-color:#ffd034d7;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+form > a{
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+form button{
+    text-align: center;
+    border-radius: 10px;
+    border: 0.1px solid black;
+    padding: 2px;
+
+    width: 80%;
+    transform: translate(20px, 0px);
+}
+
+form button:hover{
+    background-color: rgba(211, 211, 211, 0.472);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form i{
+    transform: translate(5px, 4.5px); ;
+}
