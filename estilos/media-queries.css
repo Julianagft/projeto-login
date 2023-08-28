@@ -16,7 +16,7 @@
     body{
         background-image: linear-gradient(to bottom, var(--azul-claro), var(--verde-claro), var(--verde-escuro));
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
     }
 
     section#login{
@@ -41,7 +41,7 @@
     body{
         background-image: linear-gradient(to bottom, var(--azul-claro), var(--verde-escuro), var(--goiaba));
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
     }
 
     section#login{
