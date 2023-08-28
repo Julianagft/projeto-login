@@ -61,6 +61,18 @@ section#login{
 
 #form{
     padding: 10px;
+    
+}
 
+#form > h1{
+    text-align: center;
+    margin: 10px;
+
+}
+
+#form > p{
+    font-size: 0.8em;
+    text-align: justify;
+    margin: 10px;
 }
 

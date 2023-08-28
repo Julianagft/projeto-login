@@ -12,7 +12,7 @@
 
 /* Versão Tablet*/
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 760px) and (max-width: 992px) {
     body{
         background-image: linear-gradient(to bottom, var(--azul-claro), var(--verde-claro), var(--verde-escuro));
         background-repeat: no-repeat;
@@ -58,5 +58,14 @@
     #form{
         width: 50%;
     }
+
+    #form > h1{
+        font-size: 2em;
+    }
+
+    #form > p{
+        font-size: 1.2em;
+    }
+    
 
 }
