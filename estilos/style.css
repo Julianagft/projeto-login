@@ -21,6 +21,7 @@
 
 body, html {
     background-image: linear-gradient(to bottom, var(--azul-claro), var(--verde-escuro));
+    background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
 }
