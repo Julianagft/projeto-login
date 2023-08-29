@@ -133,13 +133,12 @@ form button:hover{
 }
 
 form span{
-    transform: translate(1px, 6px);
     background-color: var(--amarelo-queimado);
     width: 30px;
     padding: 2px;
     border-radius: 5px;
     font-size: 0.5em;
-   
+    transform: translate(1px, 6px); /*Toda animação ou transição deve ser a última linha do código*/
 }
 
 form i{
