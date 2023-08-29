@@ -45,7 +45,7 @@ section#login{
     background-color: white;
     box-shadow:0px 0px 10px rgba(0, 0, 0, 0.450) ;
     width: 300px;
-    height: 70vh;
+    height: 65vh;
     border-radius: 20px;
     overflow: hidden;
 
@@ -70,6 +70,7 @@ section#login{
 
 #form > h1{
     text-align: center;
+    margin-top: 10px;
     
 
 }
@@ -78,6 +79,12 @@ section#login{
     font-size: 0.8em;
     text-align: justify;
     margin: 10px;
+}
+
+form input[type=email], input[type=password]{
+    border-radius: 5px;
+    padding: 3px;
+    border: 2px solid var(--amarelo-queimado);
 }
 
 form input[type=submit]{
@@ -93,14 +100,12 @@ form input[type=submit]{
     border: none;
     margin-top: 20px;
 }
-form input[type=email], input[type=password]{
-    border-radius: 5px;
-    padding: 2px;
-}
+
 form input[type=submit]:hover{
-    background-color:#ffd034d7;
+    background-color:#ffd034c4;
     font-weight: bolder;
     cursor: pointer;
+    transition: 0.2s;
 }
 
 form > a{
@@ -112,7 +117,7 @@ form > a{
 
 form button{
     text-align: center;
-    border-radius: 10px;
+    border-radius: 5px;
     border: 0.1px solid black;
     padding: 2px;
 
@@ -124,8 +129,19 @@ form button:hover{
     background-color: rgba(211, 211, 211, 0.472);
     font-weight: bold;
     cursor: pointer;
+    transition: 0.2s;
+}
+
+form span{
+    transform: translate(1px, 6px);
+    background-color: var(--amarelo-queimado);
+    width: 30px;
+    padding: 2px;
+    border-radius: 5px;
+    font-size: 0.5em;
+   
 }
 
 form i{
-    transform: translate(5px, 4.5px); ;
+    transform: translate(5px, 4.5px); 
 }
